@@ -1,199 +1,198 @@
-*{
+*
+{
     margin: 0px;
     padding: 0px;
 }
+/* CSS for header */
 
-
-/* css for header  */
-
-.header{
+.header
+{
     height: 90px;
     width: 100%;
-    /* background-color: rgba(16, 128, 234, 1); */
+    /* background-color: rgba(16,128,234,1); */
     display: flex;
     justify-content: center;
-    position: fixed;
+    position:fixed;
 }
-
-.container{
+.container
+{
     width: 90%;
     /* background-color: red; */
     display: flex;
-
 }
-
-.header_container{
-    justify-content: space-between;    
+.header_container
+{
+    justify-content: space-between;
 }
-
-.logo{
+.logo
+{
     height: 90px;
-    width: 20%;
+    width: 15%;
     /* background-color: yellow; */
     font-size: 40px;
     font-family: segoe UI;
     text-align: center;
     font-weight: bold;
     color: white;
-    line-height: 90px;
+    line-height: 70px;
 }
-
-.nav{
+.nav
+{
     height: 90px;
     width: 35%;
-    /* background-color: green; */
+    /* background-color:greenyellow; */
     display: flex;
 }
-
-
-.nav_item{
+.nav_item
+{
     width: 20%;
     height: 90px;
-    /* background-color: gray; */
+    /* background-color: grey; */
     font-family: segoe UI;
     text-align: center;
-    line-height: 90px;
+    line-height: 70px;
     color: white;
     cursor: pointer;
-    transition: .4s;
+    transition: 0.4s;
 }
-
-.nav_item:hover {
+/* psuedo class  */
+.nav_item:hover
+{
     background-color: white;
-    color: rgba(16, 128, 234, 1);
+    color:rgba(16,128,234,1);
+}
+/* BANNER */
+.banner
+{
+    height: 800px;
+    width: 100%;
+    background-color: grey;
+    background-image: url('./Images/Banner.jpg');
+    background-size:cover;
     
 }
-
-.banner{
-    height: 95vh;
+.overlay
+{
+    height: 800px;
     width: 100%;
-    background-color: gray;
-    background-size: cover;
-    background-image: url('./images/banner.jpg');
-}
-
-.overlay{
-    height: 95vh;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
     display: flex;
     align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    /* RGBA a value for transparent faded dark */
 }
-
-.banner_text{
+.banner_text
+{
     height: 350px;
     width: 50%;
-    background-color: rgba(16, 128, 234, 0.7);
-    font-family: segoe UI;
+    background-color:rgba(16,128,234,0.7);
+    font-family: Segoe UI;
     display: flex;
     align-items: center;
     color: white;
 }
-
-.banner_title{
+.banner_title
+{
     font-size: 50px;
     margin-bottom: 15px;
-    
 }
-
-.banner_desc{
-    margin-bottom: 30px;
-}
-
-.padd{
+.padd
+{
     padding: 50px;
     /* background-color: red; */
 }
-
-.banner_button{
+.banner_button
+{
     padding-left: 60px;
-    padding-right:60px;
+    padding-right: 60px;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-transform: uppercase;
+    text-transform:uppercase;
     background-color: transparent;
     color: white;
     font-weight: bold;
-    font-family: segoe ui;
-    border:3px solid white;
+    font-family: segeo UI;
+    border: 3px solid white;
     cursor: pointer;
     transition: .4s;
 }
-
-.banner_button:hover{
+.banner_button:hover
+{
     background-color: white;
-    color: rgba(16, 128, 234, 1);
+    color: rgba(16,128,234,1);
+}
+.banner_desc
+{
+    margin-bottom: 30px;
 }
 
-/* css for services  */
-
-.services{
-    padding-top:50px;
+/* CSS for services */
+.services
+{
+    padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #e6e6e6;
+    background-color: #80808033;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family: segoe UI;
 }
 
-.services_container{
+.service_padd
+{
+    padding: 20px;
+}
+
+.services_container
+{
     margin-top: 50px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.service{
+.service
+{
     height: 400px;
-    width: 47%;
+    width: 40%;
     background-color: white;
     display: flex;
     margin-top: 20px;
 }
-
-
-.service_img{
-    width: 40%;
+.service_img
+{
     height: 400px;
+    width: 40%;
     /* background-color: red; */
     display: flex;
     overflow: hidden;
 }
-
-.service_details{
+.service_details
+{
     width: 60%;
     height: 400px;
     /* background-color: green; */
     display: flex;
     align-items: center;
 }
-
-.service_padd{
-    padding: 20px;
-}
-
-
-.service_btn{
-
+.service_button
+{
     padding-left: 60px;
-    padding-right:60px;
+    padding-right: 60px;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-transform: uppercase;
-    background-color: rgba(16, 128, 234, 1);
+    text-transform:uppercase;
+    background-color: rgba(16,128,234,1);
     color: white;
     font-weight: bold;
-    font-family: segoe ui;
-    border:none;
+    font-family: segeo UI;
+    border: none;
     cursor: pointer;
     transition: .4s;
-
 }
-
-.service_title{
+.service_title
+{
     margin-bottom: 15px;
+    
 }
-
-.service_desc{
+.service_desc
+{
     margin-bottom: 30px;
 }
